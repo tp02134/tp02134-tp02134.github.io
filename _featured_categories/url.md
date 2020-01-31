@@ -1,9 +1,9 @@
 ---
 layout: list
-title: Hydejack
-slug: hydejack
+title: Urban Robotics Lab
+slug: url
 menu: true
-order: 1
+order: 3
 description: >
   Hydejack is a pretentious two-column [Jekyll](http://jekyllrb.com/) theme, stolen by
   [@qwtel](https://twitter.com/qwtel) from [Hyde](http://hyde.getpoole.com).
