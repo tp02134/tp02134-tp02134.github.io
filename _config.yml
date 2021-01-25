@@ -47,12 +47,12 @@ author:
 
 # Add links to the sidebar.
 menu:
-  - title: Study
-    url:   /posts/study/
-  - title: Paper
-    url:   /posts/paper/
-  - title: Project
-    url:   /posts/project/
+  - title: All post
+    url:   /posts/all/
+  - title: Research
+    url:   /posts/research/
+  - title: Programming
+    url:   /posts/programming/
   - title: URL
     url:   /posts/url/
   - title: About
