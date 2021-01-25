@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: http://tp02134.github.io/sitemap.xml
