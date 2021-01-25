@@ -47,8 +47,8 @@ author:
 
 # Add links to the sidebar.
 menu:
-  - title: Blog
-    url:   /posts/
+  - title: Study
+    url:   /posts/study/
   - title: Paper
     url:   /posts/paper/
   - title: Project
