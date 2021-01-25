@@ -47,8 +47,6 @@ author:
 
 # Add links to the sidebar.
 menu:
-  - title: All post
-    url:   /posts/all/
   - title: Research
     url:   /posts/research/
   - title: Programming

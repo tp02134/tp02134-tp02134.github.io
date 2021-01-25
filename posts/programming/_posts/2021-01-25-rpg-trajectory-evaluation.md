@@ -1,13 +1,11 @@
 # rpg trajectory evaluation 사용법
 
----
-
 ## Preliminaries
 
 - catkin_simple
 - rpg_trajectory_evaluation
 
-[uzh-rpg/rpg_trajectory_evaluation](https://github.com/uzh-rpg/rpg_trajectory_evaluation)
+[uzh-rpg - rpg_trajectory_evaluation](https://github.com/uzh-rpg/rpg_trajectory_evaluation)
 
 - latex 설치
 
@@ -131,7 +129,7 @@ foutC.close();
 
 rpg_trajectory_evaluation/plot_utils.py 파일 수정
 
-```jsx
+```py
 def plot_trajectory_top(ax, pos, color, name, alpha=1.0):
     ax.grid(ls='--', color='0.7')
     # pos_0 = pos - pos[0, :]

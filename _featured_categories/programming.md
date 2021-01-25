@@ -1,7 +1,7 @@
 ---
 layout: list
-title: Paper
-slug: paper
+title: Programming
+slug: programming
 menu: true
 order: 1
 description: >
