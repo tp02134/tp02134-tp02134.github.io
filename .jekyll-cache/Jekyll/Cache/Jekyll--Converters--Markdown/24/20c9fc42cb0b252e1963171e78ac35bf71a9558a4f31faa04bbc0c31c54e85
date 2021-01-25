@@ -1,0 +1,42 @@
+I"5<p>Like many people, I’m a sucker for is dark UI themes, whether it’s Twitter, macOS, or code editors. I even <a href="https://atom.io/packages/theme-flux-solar">built an addon for Atom</a> that automatically switches between light and dark based on sunset and sunrise.</p>
+
+<p>When I was playing around with Unity, I even considered a subscription just so I could use the dark theme, which is exclusive to subscribers. Following this line of thought, I’ve added a Dark Mode to the PRO version of Hydejack.</p>
+
+<p class="figure"><img src="/assets/img/blog/dark-mode.jpg" alt="Dark Mode" data-width="1440" data-height="836" />
+<em>This is what it looks like!</em></p>
+
+<p>A unique challenge with regards to Hydejack was its color customization feature. As it turns out, a generic gray does not look good when combined with many accent colors, while a slightly tinted gray only looks good with a small range of accent colors.</p>
+
+<p>To solve the problem, Hydejack’s Dark Mode adjusts the background based on the <code class="language-plaintext highlighter-rouge">theme_color</code>. This property can be set for the entire site, or individual pages just like <code class="language-plaintext highlighter-rouge">accent_color</code>. It also adjusts the UI of many browsers that support the Web App Manifest API, making the whole experience even more seamless.</p>
+
+<p class="figure"><img src="/assets/img/blog/dark-mode-ii.jpg" alt="Adaptive Dark Mode Example" data-width="1440" data-height="836" />
+Dark Mode adjusts to a different accent colors.</p>
+
+<p>While it’s not feasible to enable Dark Mode based on a visitor’s exact sunrise and sunset times<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote">1</a></sup>, site authors can opt-in to enable Dark Mode based on a visitor’s local time.</p>
+
+<p>Site authors can also enable Dark Mode by default and/or hide the light switch:</p>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">hydejack</span><span class="pi">:</span>
+  <span class="na">dark_mode</span><span class="pi">:</span>
+    <span class="c1"># Set to `true` to always use the dark theme.</span>
+    <span class="na">always</span><span class="pi">:</span>            <span class="no">false</span>
+
+    <span class="c1"># Set to `true` to use the dark theme based on visitors' local time.</span>
+    <span class="na">dynamic</span><span class="pi">:</span>           <span class="no">true</span>
+    <span class="na">sunrise</span><span class="pi">:</span>           <span class="m">6</span>
+    <span class="na">sunset</span><span class="pi">:</span>            <span class="m">18</span>
+
+    <span class="c1"># Set to `true` to allow visitors to switch between light and dark mode.</span>
+    <span class="na">icon</span><span class="pi">:</span>              <span class="no">true</span>
+</code></pre></div></div>
+
+<p>Dark Mode is now available for buyers of the <a href="https://app.simplegoods.co/i/NATYVLYT">PRO version</a>.</p>
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p>This would require visitors’ permission to read their geolocation, which is not reasonable or practical for this use case. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+    </li>
+  </ol>
+</div>
+:ET
