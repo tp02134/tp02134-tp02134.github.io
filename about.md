@@ -20,9 +20,10 @@ title: About
 
 ### [Publications](https://scholar.google.co.kr/citations?hl=ko&user=cswAGP0AAAAJ)
 
-[2020]
+[2021]
 * **Hyunjun Lim**, Yeeun Kim, Kwangik Jung, Sumin Hu, and Hyun Myung, "Avoiding Degeneracy for Monocular Visual-Inertial System with Point and Line Features," Accepted to IEEE Int'l Conf. on Robotics and Automation (ICRA) 2021, <https://arxiv.org/abs/2103.01501>
 
+[2020]
 * KwangYik Jung, YeEun Kim, **HyunJun Lim**, and Hyun Myung, "ALVIO: Adaptive Line and Point Feature-based Visual Inertial Odometry for Robust Localization in Indoor Environments," in Proc. of The 8th International Conference on Robot Intelligence Technology and Applications (RiTA), Cardiff, UK (virtual), Dec.17-20, 2020. <https://arxiv.org/abs/2012.15008>
 
 [2019]

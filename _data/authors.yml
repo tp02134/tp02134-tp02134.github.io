@@ -7,14 +7,11 @@ author1:
 
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
-  about: Hyunjun Lim
+  about:             |
+    ### Hyunjun Lim
+    Ph.D Candidate, Urban Robotics Lab., School of Electrical Engineering
 
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-    Open `_data/authors.yml` to edit this text.
-
+    E-mail: tp02134@kaist.ac.kr
   # This photo will be used in the about section
   picture:
     path:            https://placehold.it/128x128
